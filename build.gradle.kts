@@ -40,8 +40,8 @@ dependencies {
 
 tasks {
     java {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     jar {
@@ -54,7 +54,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "6.4"
+        gradleVersion = "7.6"
     }
 
     test {
