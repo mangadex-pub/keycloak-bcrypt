@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.github.leroyguillaume"
-version = "1.5.3"
+version = "1.5.4"
 
 repositories {
     mavenCentral()
@@ -16,10 +16,10 @@ configurations {
 }
 
 dependencies {
-    val bcryptVersion = "0.9.0"
+    val bcryptVersion = "0.10.2"
     val jbossLoggingVersion = "3.4.1.Final"
     val keycloakVersion = project.property("dependency.keycloak.version")
-    val junitVersion = "5.8.2"
+    val junitVersion = "5.9.2"
 
     // BCrypt
     implementation("at.favre.lib:bcrypt:$bcryptVersion")
