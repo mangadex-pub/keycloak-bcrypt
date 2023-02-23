@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.github.leroyguillaume"
-version = "1.5.4"
+version = "1.6.0"
 
 repositories {
     mavenCentral()
@@ -40,8 +40,8 @@ dependencies {
 
 tasks {
     java {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     jar {
